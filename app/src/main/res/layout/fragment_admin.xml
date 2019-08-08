@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <androidx.constraintlayout.widget.ConstraintLayout
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context=".ui.fragment.AdminFragment">
+    
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/city_text_input"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="City"
+        app:errorEnabled="true">
+      
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/city_edit_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="textPersonName"/>
+    
+    </com.google.android.material.textfield.TextInputLayout>
+    
+    
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/price_text_input"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="0dp"
+        app:layout_constraintTop_toBottomOf="@id/city_text_input"
+        app:layout_constraintStart_toStartOf="@id/city_text_input"
+        app:layout_constraintEnd_toEndOf="@id/city_text_input"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        app:errorEnabled="true">
+      
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/price_edit_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="number"/>
+    
+    </com.google.android.material.textfield.TextInputLayout>
+    
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/desc_text_input"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="0dp"
+        app:layout_constraintTop_toBottomOf="@id/price_text_input"
+        app:layout_constraintStart_toStartOf="@id/city_text_input"
+        app:layout_constraintEnd_toEndOf="@id/city_text_input"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        app:errorEnabled="true">
+      
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/desc_edit_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="textPersonName"/>
+    
+    </com.google.android.material.textfield.TextInputLayout>
+    
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSelectImage"
+        app:layout_constraintTop_toBottomOf="@id/desc_text_input"
+        app:layout_constraintEnd_toEndOf="@id/desc_text_input"
+        app:layout_constraintStart_toStartOf="@id/desc_text_input"
+        android:layout_width="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
+        android:text="Select image"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:minWidth="200dp"
+        android:layout_height="60dp"/>
+    
+    <ImageView
+        android:id="@+id/selectedImg"
+        android:layout_width="0dp"
+        tools:src="@drawable/xbox"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/desc_text_input"
+        app:layout_constraintEnd_toEndOf="@id/desc_text_input"
+        app:layout_constraintTop_toBottomOf="@id/btnSelectImage"
+        android:layout_height="250dp"/>
+  
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/selectedImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/btnSelectImage"
+        app:layout_constraintEnd_toEndOf="@id/btnSelectImage"
+    />
+  
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

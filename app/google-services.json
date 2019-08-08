@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "721575198725",
+    "firebase_url": "https://deep-byte-216815.firebaseio.com",
+    "project_id": "deep-byte-216815",
+    "storage_bucket": "deep-byte-216815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721575198725:android:dab21efaa7aaa32d",
+        "android_client_info": {
+          "package_name": "com.charity.travelmantics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721575198725-gb6m5l01j0ego9vk19fi4v52vnrtn6g0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.charity.travelmantics",
+            "certificate_hash": "143c01c62b455ae4a354072d733e7a03d85a147d"
+          }
+        },
+        {
+          "client_id": "721575198725-504d8d5ckaa8ikglsemsv898n17ba6oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQBo0C5sp8ywr7muRQ8Gct-_1AtjTVTns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721575198725-504d8d5ckaa8ikglsemsv898n17ba6oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721575198725:android:689c10758fd15fc9",
+        "android_client_info": {
+          "package_name": "techgroup.com.blogzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721575198725-6nl1k8bm4do74fl2uaqvnsb1qcv5d3i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "techgroup.com.blogzone",
+            "certificate_hash": "143c01c62b455ae4a354072d733e7a03d85a147d"
+          }
+        },
+        {
+          "client_id": "721575198725-504d8d5ckaa8ikglsemsv898n17ba6oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQBo0C5sp8ywr7muRQ8Gct-_1AtjTVTns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721575198725-504d8d5ckaa8ikglsemsv898n17ba6oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721575198725:android:a201a62ce64d2142",
+        "android_client_info": {
+          "package_name": "techgroup.com.whatsappclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721575198725-of5dbg5ekeuv0caa83sk8dcft626tg4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "techgroup.com.whatsappclone",
+            "certificate_hash": "143c01c62b455ae4a354072d733e7a03d85a147d"
+          }
+        },
+        {
+          "client_id": "721575198725-504d8d5ckaa8ikglsemsv898n17ba6oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQBo0C5sp8ywr7muRQ8Gct-_1AtjTVTns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721575198725-504d8d5ckaa8ikglsemsv898n17ba6oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
